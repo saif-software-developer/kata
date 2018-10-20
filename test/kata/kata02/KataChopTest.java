@@ -3,8 +3,6 @@ package kata.kata02;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class KataChopTest {
@@ -12,7 +10,7 @@ public class KataChopTest {
     @Test
     public void shouldFindTheElementIndexAsExpected(){
 
-        Kata02 kata02 = new BinarySearch();
+        Kata02 kata02 = new BinarySearch_V1();
 
         assertEquals(-1, kata02.chop(3, new int[]{}));
         assertEquals(-1, kata02.chop(3, new int[]{1}));

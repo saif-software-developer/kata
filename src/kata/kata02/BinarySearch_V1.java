@@ -3,7 +3,8 @@ package kata.kata02;
 
 import java.util.Arrays;
 
-public class BinarySearch implements Kata02{
+public class BinarySearch_V1
+        implements Kata02{
 
 
     @Override
