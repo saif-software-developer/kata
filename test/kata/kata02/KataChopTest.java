@@ -10,7 +10,7 @@ public class KataChopTest {
     @Test
     public void shouldFindTheElementIndexAsExpected(){
 
-        Kata02 kata02 = new BinarySearch_V1();
+        Kata02 kata02 = new BinarySearch_V2();
 
         assertEquals(-1, kata02.chop(3, new int[]{}));
         assertEquals(-1, kata02.chop(3, new int[]{1}));
